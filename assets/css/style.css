@@ -66,11 +66,12 @@ main {
 }
 
 .startScreen button {
-    display: flex;
+    display: block;
     padding: 5px;
     background-color: rebeccapurple;
     color: white;
     border-radius: 5px;
+    margin: auto;
 }
     
 .startScreen button:focus {
