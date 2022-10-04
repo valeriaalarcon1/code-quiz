@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coding Quiz Challenge</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <header>
@@ -23,55 +24,57 @@
         </section>
 
         <!-- Questions -->
-        <section class="Q1">
-            <h1>Question 1</h1>
-            <li><button>A</button></li>
-            <li><button>B</button></li>
-            <li><button>C</button></li>
-            <li><button>D</button></li>
-        </section>
-        <section class="Q2">
-            <h1>Question 2</h1>
-            <li><button>A</button></li>
-            <li><button>B</button></li>
-            <li><button>C</button></li>
-            <li><button>D</button></li>
-        </section>
-        <section class="Q13">
-            <h1>Question 3</h1>
-            <li><button>A</button></li>
-            <li><button>B</button></li>
-            <li><button>C</button></li>
-            <li><button>D</button></li>
-        </section>
-        <section class="Q4">
-            <h1>Question 4</h1>
-            <li><button>A</button></li>
-            <li><button>B</button></li>
-            <li><button>C</button></li>
-            <li><button>D</button></li>
-        </section>
-        <section class="Q5">
-            <h1>Question 5</h1>
-            <li><button>A</button></li>
-            <li><button>B</button></li>
-            <li><button>C</button></li>
-            <li><button>D</button></li>
+        <section class="questions">
+            <div class="Q1" id = Q>
+                <h1>Question 1</h1>
+                <li><button>A</button></li>
+                <li><button>B</button></li>
+                <li><button>C</button></li>
+                <li><button>D</button></li>
+            </div>
+            <div class="Q2" id = Q>
+                <h1>Question 2</h1>
+                <li><button>A</button></li>
+                <li><button>B</button></li>
+                <li><button>C</button></li>
+                <li><button>D</button></li>
+            </div>
+            <div class="Q13" id = Q>
+                <h1>Question 3</h1>
+                <li><button>A</button></li>
+                <li><button>B</button></li>
+                <li><button>C</button></li>
+                <li><button>D</button></li>
+            </div>
+            <div class="Q4" id = Q>
+                <h1>Question 4</h1>
+                <li><button>A</button></li>
+                <li><button>B</button></li>
+                <li><button>C</button></li>
+                <li><button>D</button></li>
+            </div>
+            <div class="Q5" id = Q>
+                <h1>Question 5</h1>
+                <li><button>A</button></li>
+                <li><button>B</button></li>
+                <li><button>C</button></li>
+                <li><button>D</button></li>
+            </div>
         </section>
     
         <!-- 3 wrongs = Game Over (All done!) & Enter Intials buttons  -->
-        <section>
+        <section class="gameOver">
             <h1>All Done!</h1>
             <h3>Your final score is: </h3>
             <div>
                 <label for="">Enter initials:</label>
-                <input type="text"><input>
+                <input type="text">
                 <button>Submit</button>
             </div>
         </section>
 
         <!-- High Scores & Go back clear button & High schores button -->
-        <section>
+        <section class="highScores">
             <h1>High Scores:</h1>
             <ol>
                 <li></li>
@@ -80,8 +83,12 @@
                 <li></li>
                 <li></li>
             </ol>
+            <button>Go back</button>
+            <button>Clear high scores</button>
         </section>
 
-    </main>    
+    </main>   
+    
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>

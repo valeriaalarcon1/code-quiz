@@ -1,0 +1,146 @@
+/* Universal */
+
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+/* General */
+
+body {
+    background-color: white;
+}
+
+h1 {
+    color: black;
+}
+
+
+
+/* Header bar with View High Scores button and Timer */
+
+header {
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header button {
+    border: none;
+    background-color: white;
+    color: rebeccapurple;
+}
+
+header button:focus {
+    color: pink;
+}
+
+header p {
+    align-items: flex-end;
+}
+
+
+
+
+/* Main body styling */
+
+main {
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+
+
+/* Start Screen (Start quiz) */
+
+.startScreen h1 {
+    text-align: center;
+}
+
+.startScreen p {
+    text-align: center;
+}
+
+.startScreen button {
+    display: flex;
+    padding: 5px;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 5px;
+}
+    
+.startScreen button:focus {
+    background-color: pink;
+}
+
+
+
+
+/* Quiz questions */
+
+#Q li {
+    list-style: none;
+}
+
+
+#Q button {
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 5px;
+}
+
+#Q button:focus {
+    background-color: pink;
+}
+
+
+
+/* Game Over Screen (Enter initials button) */
+
+.gameOver {
+    display: block;
+}
+
+.gameOver button {
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 5px;
+}
+
+.gameOver button:focus {
+    background-color: pink;
+}
+
+
+
+
+/* High Scores Screen */
+
+.highScores {
+    display: block;
+    align-items: center;
+}
+
+.highScores li {
+    background-color: rgba(128, 0, 128, 0.382);
+}
+
+.highScores button {
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 5px;
+}
+
+.highScores button:focus {
+    background-color: pink;
+}
