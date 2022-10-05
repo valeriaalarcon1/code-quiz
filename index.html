@@ -10,9 +10,9 @@
 <body>
     <header>
         <!-- View high scores -->
-        <button>View high scores</button>
+        <button id="view-button">View high scores</button>
         <!-- Timer -->
-        <p>Timer: </p>
+        <p class="timer"></p>
     </header>
 
     <main>
@@ -20,47 +20,16 @@
         <section class="start-screen">
             <h1>Coding Quiz Challenge</h1>
             <p>Try to answer the following code-relate questions within this time limit.</p>
-            <button>Start Quiz</button>
+            <button id="start-button">Start Quiz</button>
         </section>
 
         <!-- Questions -->
-        <div class="question-box">
-            <div class="Q1" id = Q>
-                <h1>Question 1</h1>
-                <li><button>A</button></li>
-                <li><button>B</button></li>
-                <li><button>C</button></li>
-                <li><button>D</button></li>
+        <section class="question-box">
+            <div id="Q">
+                <h1 id="question">Question</h1>
+                <div id="answer-options"></div>
             </div>
-            <div class="Q2" id = Q>
-                <h1>Question 2</h1>
-                <li><button>A</button></li>
-                <li><button>B</button></li>
-                <li><button>C</button></li>
-                <li><button>D</button></li>
-            </div>
-            <div class="Q13" id = Q>
-                <h1>Question 3</h1>
-                <li><button>A</button></li>
-                <li><button>B</button></li>
-                <li><button>C</button></li>
-                <li><button>D</button></li>
-            </div>
-            <div class="Q4" id = Q>
-                <h1>Question 4</h1>
-                <li><button>A</button></li>
-                <li><button>B</button></li>
-                <li><button>C</button></li>
-                <li><button>D</button></li>
-            </div>
-            <div class="Q5" id = Q>
-                <h1>Question 5</h1>
-                <li><button>A</button></li>
-                <li><button>B</button></li>
-                <li><button>C</button></li>
-                <li><button>D</button></li>
-            </div>
-        </div>
+        </section>
     
         <!-- Game Over (All done!) & Enter Intials buttons  -->
         <section class="game-over">
@@ -69,7 +38,7 @@
             <div>
                 <label for="">Enter initials:</label>
                 <input type="text">
-                <button>Submit</button>
+                <button id="submit-button">Submit</button>
             </div>
         </section>
 
@@ -83,8 +52,8 @@
                 <li></li>
                 <li></li>
             </ol>
-            <button>Go back</button>
-            <button>Clear high scores</button>
+            <button id="go-back-button">Go back</button>
+            <button id="clear-button">Clear high scores</button>
         </section>
 
     </main>   

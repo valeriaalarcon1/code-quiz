@@ -81,14 +81,11 @@ main {
 
 
 
-/* Quiz questions */
+/* Quiz questions */      /* FIX THIS */
 
-#Q li {
-    list-style: none;
-}
-
-
-#Q button {
+#answer-options button {
+    display: flex;
+    flex-direction: column;
     padding-left: 5px;
     padding-right: 5px;
     background-color: rebeccapurple;
@@ -96,7 +93,7 @@ main {
     border-radius: 5px;
 }
 
-#Q button:focus {
+#answer-options button:focus {
     background-color: pink;
 }
 
